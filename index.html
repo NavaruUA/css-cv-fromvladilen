@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/project1/CSS/style.css">
+    <title>OChumanovCV</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- инфо -->
+        <div class="info">
+            <img class="avatar" src="img/MyPhotoRed.png" alt="myPhoto">
+            <!-- добавить меню навигации -->
+            <!-- обычное резюме слишком скучно, по этому сдела сайт со своими портфолио  -->
+            <div class="info-text">
+                <h1>Oleksandr Chumanov</h1>
+                <p>Я работаю <strong>фротдэнд разработчиком</strong> 6 месяцев</p>
+                <!-- использовать ЕМ вместо И для курсива -->
+                <!-- strong в место B -->
+                <p>Люблю путешествовать поэтому выбрал ИТ для удаленной работы</p>
+                <h4>мои социальные сети</h4>
+
+                <a href="https:" target="_blank">instagram</a>
+                |
+                <!-- target открывает ссылку в новой вкладке -->
+                <a href="https://t.me/">telegram</a>
+            </div>
+        </div>
+
+        <!-- хоби -->
+        <div class="card bg-yellow">
+            <h2>мои хоби</h2>
+            <ol class="list">
+                <li>разработка</li>
+                <li>компьютерные игры</li>
+                <li>путешествия</li>
+            </ol>
+        </div>
+
+        <!-- опыт работы -->
+        <div class="card bg-green">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <!-- <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Vacancy</th>
+                        <th>period</th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>Hisense</td>
+                        <td>promoter</td>
+                        <td>period</td>
+                    </tr>
+                    <tr>
+                        <td>Boche Diesel Jihlava</td>
+                        <td>worker</td>
+                        <td>period</td>
+                    </tr>
+                    <tr>
+                        <td>Samsung</td>
+                        <td>promoter</td>
+                        <td>period</td>
+                    </tr>
+                </tbody>
+                <!-- <tfoot>для общего подсчета</tfoot> -->
+                <!-- <thead><tbody></tbody></thead> --не обязательные элементы, но упрощают стилизацию -->
+            </table>
+
+        </div>
+
+        <!-- список проэктов -->
+        <div class="card bg-red">
+            <h2>список проэктов</h2>
+            <ul class="link-list">
+                <li>
+                    <a href="projects.html" target="_blank">Мои проэкты</a>
+                </li>
+                <li> <a href="https://tangerine-travesseiro-7d85ac.netlify.app">CV GoIT</a></li>
+            </ul>
+        </div>
+
+        <!-- contacts -->
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+
+            <form action="/">
+                <!-- action указываем скрипт куда будет отпарвляться сообщения из формы -->
+                <div class="row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Введите свое имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email</label>
+                        <input type="email" id="email" placeholder="Ваш email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                    <textarea name="text" id="" cols="10" rows="3"></textarea>
+                </div>
+                <input class="btp" type="submit" value="связаться">
+            </form>
+        </div>
+        <div class="position">
+            <div class="box">
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
